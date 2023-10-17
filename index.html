@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+    <title>CurrencyConverter</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <div class="time">
+          <time datetime="15-09-2023 16:00">Станом на сьогодні</time>
+        </div>
+        <div class="exchange-rates">
+          <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Купівля</th>
+                <th>Продаж</th>
+                <th>НБУ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>???</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+              </tr>
+              <tr>
+                <td>???</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="currency-converter">
+          <div class="input-group">
+            <label for="">UAH</label>
+            <input class="input" type="text" name="ua" />
+            <label for="">USD</label>
+            <input class="input" type="text" name="us" />
+          </div>
+
+          <div class="input-group">
+            <label for="">EUR</label>
+            <input class="input" type="text" name="eu" />
+            <label for="">RUB</label>
+            <input class="input" type="text" name="ru" disabled />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
